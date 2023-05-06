@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+  #title {
+    font-family: 'Playfair Display', cursive;
+    color: #F16C3C;
+    
+  }
+  
+  #desc_title {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2em;
+  }
+
+  #desc_body {
+    font-family: 'Roboto', cursive;
+  }
+  #welcome_box {
+    background-color: #F9F9F9;
+  }
+
+  #txt_highlight {
+    color: #E7AF36;
+  }
+

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 
+
 const Blog = require('./models/Model');
 
 
@@ -17,7 +18,6 @@ function App() {
    <div className="App">
      <BrowserRouter>
        <Suspense fallback={<div>Page Loading...</div>}>
-         <Navbar />
          <AnimatePresence
           mode='wait'>
             <Routes>
@@ -26,6 +26,7 @@ function App() {
             </Routes>
          </AnimatePresence>
        </Suspense>
+       <Navbar />
      </BrowserRouter>
    </div>
  );
