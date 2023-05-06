@@ -1,4 +1,5 @@
 import React from 'react'
+import Movable from '../components/Movable'
 
 const Home = () => {
   return (
@@ -9,6 +10,21 @@ const Home = () => {
         <h2 className='text-4xl text-center'>Welcome to the Bulletin</h2>
         <p className='text-6xl mt-20 text-center'>We show all your saved snippets here. Try Filtering by Tag.</p>
         </div>
+      </div>
+      <div className='grid grid-cols-4 gap-6 mx-20 mt-16'>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometbe careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on Calculus!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
+        <Movable labe='mathematics' snippet='blah blah blah very cool quote trigonometry' date='2023' note='be careful on trigonometry!'></Movable>
       </div>
 
     </div>
