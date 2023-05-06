@@ -1,11 +1,19 @@
 import { useEffect } from 'react'
 
-const Movable = () => {
+const Movable = ({ label }) => {
     useEffect(() => {
 
     }, [])
   return (
-    <div>Movable</div>
+    <div className='flex flex-col'>
+      <div className='flex'>
+        <h1>AI</h1>
+      </div>
+      <div></div>
+      <div></div>
+
+
+    </div>
   )
 }
 
