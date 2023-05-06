@@ -20,12 +20,6 @@ const links = [
         id: "my-pages",
         priority: false
     },
-    {
-        name: "About",
-        link: "/about",
-        id: "about",
-        priority: false
-    },
 ]
 
    /*

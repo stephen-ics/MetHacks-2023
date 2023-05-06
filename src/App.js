@@ -1,10 +1,27 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import React, { Suspense } from "react";
 import { AnimatePresence } from 'framer-motion'
+
+const Blog = require('./models/Model');
+const app = express();
  
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
+
+app.post('/posts', (req, res) => {
+  // console.log(req.body);
+  const blog = new Blog(req.body);
+
+  blog.save()
+    .then(result => {
+      res.redirect('/posts');
+    })
+    .catch(err => {
+      console.log(err);
+    });
+});
+
 
 function App() {
  return (
