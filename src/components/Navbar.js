@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { GoThreeBars } from "react-icons/go"
+import './navbarstyle.css'
 
 import {
    Link,
@@ -56,6 +57,7 @@ const Navbar = () => {
  
    return (
     //{pathname ? opacity:0 : opacity:1}
+    <div id="navbar">
        <header className="border-[#130611] border-solid border-2 flex flex-col justify-center bg-[#130611] z-[99999999] min-h-[7vh] py-2 lg:py-4 shadow-xl">
            <div className="container px-4 mx-auto lg:flex lg:items-center m-30">
                <div className="flex justify-between items-center">
@@ -113,6 +115,7 @@ const Navbar = () => {
                
            </div>
        </header>
+       </div>
    )
 }
  
