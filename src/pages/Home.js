@@ -3,16 +3,11 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-        <form action="/posts" method="POST">
-          <label for="title">Blog title:</label>
-          <input type="text" id="title" name="title" required></input>
-          <label for="snippet">Blog snippet:</label>
-          <input type="text" id="snippet" name="snippet" required></input>
-          <label for="body">Blog body:</label>
-          <textarea id="body" name="body" required></textarea>
-          <button>Submit</button>
-      </form>
-
+      <h1 className='flex justify-center mt-32 text-8xl'>Bulletin</h1>
+      <div>
+        <h2>Welcome to the Bulletin</h2>
+        <p></p>
+      </div>
 
     </div>
   )
