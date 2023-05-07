@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { motion } from 'framer-motion'
 
 const GenerateRandom = () => {
   const min = -1
@@ -22,7 +23,7 @@ const Movable = ({ snippet, date, note, label }) => {
 
 
   return (
-    <div className='bg-blue-200 w-96 h-48 rounded-lg border-2 border-blue-400 border-solid flex flex-col mt-4 p-4 overflow-auto' style={{rotate: `${x*3}deg`}}>
+    <motion.div className='bg-blue-200 w-96 h-48 rounded-lg border-2 border-blue-400 border-solid flex flex-col mt-4 p-4 overflow-auto' style={{rotate: `${x*3}deg`}} whileHover={{scale:1.1}}>
       <div className='flex justify-between'>
         <div className='ml-3 mt-2 bg-gray-200 px-4 py-1 rounded-2xl'>AI</div>
         <h1 className='mr-3 mt-2'>X</h1>
@@ -33,7 +34,7 @@ const Movable = ({ snippet, date, note, label }) => {
       </div>
 
 
-    </div>
+    </motion.div>
   )
 }
 

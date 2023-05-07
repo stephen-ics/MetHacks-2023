@@ -20,13 +20,7 @@ const links = [
         link: "/explore",
         id: "explore",
         priority: false
-    },
-    {
-        name: "Explore",
-        link: "/explore",
-        id: "explore",
-        priority: false
-    },
+    }
 ]
 
    /*
