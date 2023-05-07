@@ -21,6 +21,12 @@ const links = [
         id: "my-pages",
         priority: false
     },
+    {
+        name: "Explore",
+        link: "/explore",
+        id: "explore",
+        priority: false
+    },
 ]
 
    /*

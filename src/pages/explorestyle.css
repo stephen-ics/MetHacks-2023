@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-image: url("Explore\ Page.jpg");
+}
   #title {
     font-family: 'Playfair Display', cursive;
-    color: #F16C3C;
+    color: white;
     
   }
   
@@ -18,14 +21,15 @@
   }
   #welcome_box {
     background-color: #F9F9F9;
+    opacity: 88%;
   }
 
   #txt_highlight {
-    color: #E7AF36;
+    color: #4D93FF;
   }
 
-  body {
-    background-image: none;
-    background-color: white;
+  #topics_desc {
+    font-family: 'Merriweather', sans-serif;
+    color:white;
   }
 
