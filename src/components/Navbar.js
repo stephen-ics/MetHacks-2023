@@ -16,9 +16,9 @@ const links = [
         priority: false
     },
     {
-        name: "My Pages",
-        link: "/my-pages",
-        id: "my-pages",
+        name: "Explore",
+        link: "/explore",
+        id: "explore",
         priority: false
     },
     {

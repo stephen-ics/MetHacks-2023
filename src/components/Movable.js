@@ -7,7 +7,7 @@ const GenerateRandom = () => {
   let difference = max-min
   let rand = Math.random()
   rand = Math.floor(rand * difference)
-  rand = rand + min;
+  rand = rand + min + 0.5;
   return rand;
 }
 

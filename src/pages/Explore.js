@@ -38,3 +38,4 @@ const randColor = () => {
 }
 
 export default Home
+
