@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Explore from './pages/Explore'
+import Create from './pages/Create'
 
 
 const Blog = require('./models/Model');
@@ -25,6 +26,7 @@ function App() {
               
               <Route path="/" exact element={<Home />} />
               <Route path="/explore" exact element={<Explore />} />
+              <Route path="/create" exact element={<Create />} />
             </Routes>
          </AnimatePresence>
        </Suspense>

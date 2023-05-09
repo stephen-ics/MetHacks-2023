@@ -20,6 +20,12 @@ const links = [
         link: "/explore",
         id: "explore",
         priority: false
+    },
+    {
+        name: "Create",
+        link: "/create",
+        id: "create",
+        priority: false,
     }
 ]
 
